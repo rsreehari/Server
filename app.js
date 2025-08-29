@@ -8,7 +8,7 @@ import userRoute from './routes/user.routes.js';
 
 const app = express();
 
-app.use('/api/v1/auth',authRouter);
+app.use('/api/v1/auths',authRouter);
 app.use('/api/v1/users',userRoute);
 app.use('/api/v1/subscriptions',subscriptionRouter);
 
