@@ -18,7 +18,5 @@ subscriptionRouter.put('/:id/cancel',(req ,res) => {res.send({title : "CANCEL su
 
 subscriptionRouter.get('/:id/upcoming-renewals',(req ,res) => {res.send({title : " DELETE user subscriptons"})});
 
-
-
 export default subscriptionRouter;
 
